@@ -1,0 +1,13 @@
+train: ../data (copy)/train/images
+val: ../data (copy)/valid/images
+test: ../data (copy)/test/images
+
+nc: 1
+names: ['License_Plate']
+
+roboflow:
+  workspace: parking-ikkfh
+  project: shrey_final_lp
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/parking-ikkfh/shrey_final_lp/dataset/2
