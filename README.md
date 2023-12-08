@@ -6,13 +6,14 @@ note: only while you have 2 classes and you want to remove 2nd class otherwise i
 ---
 
 this directory tree:  
+```
 ├─── rm-class-yolo-dataset  
      ├─── train  
      ├─── test  
      ├─── valid  
      ├─── data.yaml  
-     └─── remove-class.py  
-       
+     └─── remove-class.py
+```
 ---
 
 Note: if you get error of nc in yolo, run the script again one time
